@@ -14,3 +14,10 @@ reactDOM syntax:
 ReactDOM.createRoot(document.getElementById("");
 how to pass react element into html by using render keyword
 
+
+### CHIT CHAT  CLASS (class 2)
+ we came to learn about arrow function and how this keyword depend on how we call that function and one new thing i got to laern is 
+ function.call() => which shows how we can call the function .call we call the function.prototype.call("we pass this keyword into it ") ;
+ we came to learn that this keyword in arrow function points to  parent ka this ;
+ we came to learn about function expression and normal function
+ 
