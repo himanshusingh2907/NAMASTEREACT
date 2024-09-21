@@ -1,0 +1,19 @@
+#root{
+    background-color: red;
+    height:100%;
+    width:800px;
+
+}
+
+#container{
+    background-color: black;
+    height:100%;
+    width:400px;
+}
+
+#head1{
+    color:red;
+}
+#head2{
+    color:blue;
+}
