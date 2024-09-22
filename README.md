@@ -21,3 +21,18 @@ how to pass react element into html by using render keyword
  we came to learn that this keyword in arrow function points to  parent ka this ;
  we came to learn about function expression and normal function
  
+### IGNITE OUR APP (CLASS 3)
+in class we came to know how we can setup our mini react app using BLUNDERS parcel
+step 1:: npm init is used to initialise npm and as a result we get package.json file
+step 2:: npm install -D parcel it is used to install parcel package and as a result we get package.lock.json file it is used to maintain the latest version of react directly on the production as well as dev side 
+step 3:: npm install react
+step 4:: npm install react-dom
+step 5:: to run the npm we write npx parcel lecture3.html this is the entry point of the file
+we came to learn about BUNDLERS, CARET(^) ,tilde(^) and  we came to learn about transitive dependencies
+and why react is fast and what we should upload to git ignore 
+1.we should not but node modules to git ignore as package.json and package.lock.json is sufficient data to generate the node modules
+2.package.lock should not be put into git ignore as it is already present on the server
+3. we should put parcel.cache to git or not we shooould put parcel.cache into git ignore as it update itself once it is created
+4.to make our app compatiable for old server we write "browserlist",["last 2 versions"];
+
+
